@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/BGvfx(walk on floor).wav-4c2ec174ecc8dfcaa10076869d429156.sample"
+
+[deps]
+
+source_file="res://audio/BGvfx(walk on floor).wav"
+dest_files=[ "res://.import/BGvfx(walk on floor).wav-4c2ec174ecc8dfcaa10076869d429156.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=2
+edit/loop_begin=1
+edit/loop_end=88200
+compress/mode=0

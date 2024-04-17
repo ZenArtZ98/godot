@@ -1,0 +1,398 @@
+[gd_scene load_steps=50 format=2]
+
+[ext_resource path="res://MainMenu.gd" type="Script" id=1]
+[ext_resource path="res://UI/Logo.png" type="Texture" id=2]
+[ext_resource path="res://UI/Background.png" type="Texture" id=3]
+[ext_resource path="res://UI/Fonts/Roboto-Bold.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://UI/Слайдер.png" type="Texture" id=5]
+[ext_resource path="res://UI/Кнопка.png" type="Texture" id=6]
+[ext_resource path="res://UI/Слайдер_v2.png" type="Texture" id=7]
+[ext_resource path="res://UI/Хуйня_слайдера.png" type="Texture" id=8]
+[ext_resource path="res://UI/Кнопка(Нажата).png" type="Texture" id=9]
+[ext_resource path="res://audio/BGsoundtrack.wav" type="AudioStream" id=10]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=23]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=33]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=12]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=24]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=34]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=13]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=25]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=35]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=14]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 14
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=26]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=36]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=15]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 14
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=27]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=37]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=16]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 14
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=17]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+margin_left = 3.0
+margin_right = 3.0
+margin_top = 1.0
+margin_bottom = 1.0
+
+[sub_resource type="StyleBoxTexture" id=18]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 137, 17 )
+
+[sub_resource type="StyleBoxTexture" id=19]
+texture = ExtResource( 7 )
+region_rect = Rect2( 0, 0, 137, 17 )
+
+[sub_resource type="StyleBoxTexture" id=21]
+texture = ExtResource( 7 )
+region_rect = Rect2( 0, 0, 137, 17 )
+
+[sub_resource type="DynamicFont" id=7]
+size = 14
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=22]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=38]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=20]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 14
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=28]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+margin_left = 3.0
+margin_right = 3.0
+margin_top = 1.0
+margin_bottom = 1.0
+
+[sub_resource type="DynamicFont" id=9]
+size = 14
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=29]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+margin_left = 3.0
+margin_right = 3.0
+margin_top = 1.0
+margin_bottom = 1.0
+
+[sub_resource type="DynamicFont" id=10]
+size = 14
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=30]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+margin_left = 3.0
+margin_right = 3.0
+margin_top = 1.0
+margin_bottom = 1.0
+
+[sub_resource type="DynamicFont" id=11]
+size = 14
+font_data = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=31]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=39]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[sub_resource type="StyleBoxTexture" id=32]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 81, 26 )
+
+[node name="MainMenu" type="Control"]
+pause_mode = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 160, 90 )
+texture = ExtResource( 3 )
+
+[node name="Menu" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -35.5
+margin_top = -17.5
+margin_right = 35.5
+margin_bottom = 65.5
+
+[node name="Start" type="Button" parent="Menu"]
+margin_right = 71.0
+margin_bottom = 19.0
+custom_fonts/font = SubResource( 1 )
+custom_styles/hover = SubResource( 23 )
+custom_styles/pressed = SubResource( 33 )
+custom_styles/normal = SubResource( 12 )
+text = "Start"
+
+[node name="Settings" type="Button" parent="Menu"]
+margin_top = 23.0
+margin_right = 71.0
+margin_bottom = 42.0
+custom_fonts/font = SubResource( 2 )
+custom_styles/hover = SubResource( 24 )
+custom_styles/pressed = SubResource( 34 )
+custom_styles/normal = SubResource( 13 )
+text = "Settings"
+
+[node name="Credits" type="Button" parent="Menu"]
+margin_top = 46.0
+margin_right = 71.0
+margin_bottom = 65.0
+custom_fonts/font = SubResource( 3 )
+custom_styles/hover = SubResource( 25 )
+custom_styles/pressed = SubResource( 35 )
+custom_styles/normal = SubResource( 14 )
+text = "Credits"
+
+[node name="Settings" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Settings"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -24.5
+margin_top = -12.0
+margin_right = 24.5
+margin_bottom = 28.0
+
+[node name="Audio" type="Button" parent="Settings/VBoxContainer"]
+margin_right = 49.0
+margin_bottom = 17.0
+custom_fonts/font = SubResource( 4 )
+custom_styles/hover = SubResource( 26 )
+custom_styles/pressed = SubResource( 36 )
+custom_styles/normal = SubResource( 15 )
+text = "Audio"
+
+[node name="BackFromSettings" type="Button" parent="Settings"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -21.5
+margin_top = -23.0
+margin_right = 21.5
+custom_fonts/font = SubResource( 5 )
+custom_styles/hover = SubResource( 27 )
+custom_styles/pressed = SubResource( 37 )
+custom_styles/normal = SubResource( 16 )
+text = "Back"
+
+[node name="Audio" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Audio"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -92.0
+margin_top = -20.0
+margin_right = 93.0
+margin_bottom = -1.0
+
+[node name="Labels" type="VBoxContainer" parent="Audio/HBoxContainer"]
+margin_right = 51.0
+margin_bottom = 20.0
+
+[node name="Master" type="Label" parent="Audio/HBoxContainer/Labels"]
+margin_right = 51.0
+margin_bottom = 19.0
+custom_fonts/font = SubResource( 6 )
+custom_styles/normal = SubResource( 17 )
+text = "Master"
+valign = 1
+
+[node name="Slider" type="VBoxContainer" parent="Audio/HBoxContainer"]
+margin_left = 55.0
+margin_right = 192.0
+margin_bottom = 20.0
+size_flags_horizontal = 3
+
+[node name="Master" type="HSlider" parent="Audio/HBoxContainer/Slider"]
+margin_right = 137.0
+margin_bottom = 20.0
+custom_icons/tick = ExtResource( 8 )
+custom_icons/grabber_disabled = ExtResource( 8 )
+custom_icons/grabber_highlight = ExtResource( 8 )
+custom_icons/grabber = ExtResource( 8 )
+custom_styles/slider = SubResource( 18 )
+custom_styles/grabber_area_highlight = SubResource( 19 )
+custom_styles/grabber_area = SubResource( 21 )
+min_value = -30.0
+max_value = 0.0
+
+[node name="BackFromAudio" type="Button" parent="Audio"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -21.5
+margin_top = -23.0
+margin_right = 21.5
+custom_fonts/font = SubResource( 7 )
+custom_styles/hover = SubResource( 22 )
+custom_styles/pressed = SubResource( 38 )
+custom_styles/normal = SubResource( 20 )
+text = "Back"
+
+[node name="Credits" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Credits"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -140.0
+margin_top = -22.5
+margin_right = 146.0
+margin_bottom = 62.5
+
+[node name="Gay" type="Label" parent="Credits/VBoxContainer"]
+margin_right = 286.0
+margin_bottom = 19.0
+custom_fonts/font = SubResource( 8 )
+custom_styles/normal = SubResource( 28 )
+text = "Programmer: Sergey \"ZenArtZ\", Danil \"SkieF\""
+
+[node name="PerformansArtists" type="Label" parent="Credits/VBoxContainer"]
+margin_top = 23.0
+margin_right = 286.0
+margin_bottom = 62.0
+custom_fonts/font = SubResource( 9 )
+custom_styles/normal = SubResource( 29 )
+text = "Artists: Danil \"SkieF\", Sergey \"ZenArtZ\",
+ Vlad \"Baton\", Nadya :3"
+
+[node name="AhhMaker" type="Label" parent="Credits/VBoxContainer"]
+margin_top = 66.0
+margin_right = 286.0
+margin_bottom = 85.0
+custom_fonts/font = SubResource( 10 )
+custom_styles/normal = SubResource( 30 )
+text = "Musician: Zhenya \"ieuqene\""
+
+[node name="BackFromCredits" type="Button" parent="Credits"]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -21.5
+margin_top = -23.0
+margin_right = 21.5
+custom_fonts/font = SubResource( 11 )
+custom_styles/hover = SubResource( 31 )
+custom_styles/pressed = SubResource( 39 )
+custom_styles/normal = SubResource( 32 )
+text = "Back"
+
+[node name="Logo" type="Sprite" parent="."]
+position = Vector2( 163, 37 )
+texture = ExtResource( 2 )
+
+[node name="Master" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 10 )
+autoplay = true
+
+[connection signal="pressed" from="Menu/Start" to="." method="_on_Start_pressed"]
+[connection signal="pressed" from="Menu/Settings" to="." method="_on_Settings_pressed"]
+[connection signal="pressed" from="Menu/Credits" to="." method="_on_Credits_pressed"]
+[connection signal="pressed" from="Settings/VBoxContainer/Audio" to="." method="_on_Audio_pressed"]
+[connection signal="pressed" from="Settings/BackFromSettings" to="." method="_on_BackFromSettings_pressed"]
+[connection signal="value_changed" from="Audio/HBoxContainer/Slider/Master" to="." method="_on_Master_value_changed"]
+[connection signal="pressed" from="Audio/BackFromAudio" to="." method="_on_BackFromAudio_pressed"]
+[connection signal="pressed" from="Credits/BackFromCredits" to="." method="_on_BackFromCredits_pressed"]

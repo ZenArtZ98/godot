@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/BGvfx(collect).wav-3cb3748e4032cf940e15aed6a8281f5a.sample"
+
+[deps]
+
+source_file="res://audio/BGvfx(collect).wav"
+dest_files=[ "res://.import/BGvfx(collect).wav-3cb3748e4032cf940e15aed6a8281f5a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=1
+edit/loop_begin=0
+edit/loop_end=10
+compress/mode=0
